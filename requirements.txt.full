@@ -1,11 +1,11 @@
 # Core dependencies
-sssom
-oaklib
-linkml
-babelon
-dosdp
-semsql
-semsimian
+sssom        #mapping-commons/sssom: Simple Standard for Sharing Ontology Mappings
+oaklib       #INCATools/ontology-access-kit: Ontology Access Kit: A python library and command line application for working with ontologies
+linkml       #linkml/linkml: Linked Open Data Modeling Language
+babelon      #monarch-initiative/babelon: A format for language profiles for ontologies
+dosdp        #INCATools/dosdp-tools: Utility for working with DOSDP design patterns and OWL ontologies
+semsql       #biobricks-ai/semsql: SemSQL: standard SQL views for RDF/OWL ontologies This project provides a standard collection of SQL tables/views for ontologie 
+semsimian    #monarch-initiative/semsimian: Simple rust implementation of semantic similarity
 
 # Secondary dependencies
 click
@@ -20,7 +20,7 @@ jupyter
 matplotlib_venn
 matplotlib
 numpy
-ontobio
+ontobio     #biolink/ontobio: python library for working with ontologies and ontology associations
 pandas
 PyGithub
 pyyaml
@@ -32,17 +32,17 @@ upsetplot
 plotly
 networkx
 ontodev-cogs
-ontodev-gizmos
+ontodev-gizmos  #ontodev/gizmos: Utilities for ontology development
 mkdocs
 mkdocs-material
 mkdocs-mermaid2-plugin
 mkdocs-table-reader-plugin
-funowl
+funowl     #Harold-Solbrig/funowl: Pythonic representation of OWL through the OWL functional syntax
 kgx
 tsvalid
 jinjanator
 pyspellchecker
 jsonschema2md
-curies
+curies     #biopragmatics/curies: Idiomatic conversion between URIs and compact URIs (CURIEs) in Python
 lightrdf
 tabulate
