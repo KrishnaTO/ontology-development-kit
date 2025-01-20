@@ -43,13 +43,13 @@ These list of requirements have intricately been worked on, since >7 years, and 
         |_ odk.py: copied to '/work' in docker container to run `odk-pipeline`
     ./template/: jinja2 templates for base ontology, [odk/odk.py](odk/odk.py) makes use of these Jinja2 templates
     ./Dockerfile: `odkfull`, "main" image, requires `odklite` image (./docker/odklite/Dockerfile)
-    ./odk.sh: script maps the CD into docker container at /work, to review settings(?)
+    ./odk.sh: script maps the CD into docker container at /work, to debug inside docker or review settings(?)
 
     ./Makefile: running tests on the complete ODK package on travis; users don't need to use
     ./update-constraints.sh
-    ./requirements.txt.full
+    ./requirements.txt.full: read in `update-constraints.sh` to install requirements
     ./requirements.txt.lite
-    ./constraints.txt
+    ./constraints.txt: initiated from `update-constraints.sh`, and outputs python packages with versions
     ./pip-constraints.txt
     
     ./seed-via-docker.bat: seed new ontology

@@ -1,9 +1,11 @@
 #!/bin/bash
 # Wrapper script for ODK.
 #
-# This script maps the current directory (pwd) into the container at /work
+# This script maps the current directory (pwd/ls) into the container at /work
 # If you want to simply enter the container and take a look around try:
 # sh odk.sh bash
+# OR simply run:
+# docker run -ti obolibrary/odkfull bash
 # You should now find your self inside the running container. try ls to see wether
 # You can still see the files in your current directory, and then robot --version to see wether
 # the command line works. You can leave the container with the "exit" command
